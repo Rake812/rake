@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Table</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-size: 1.09em;
+      transform: scale(0.65); /* Scale to 67% */
+      transform-origin: top left; /* Set the origin for scaling */
+      width: 150%; /* Adjust width to prevent overflow */
+
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      text-align: center;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    input[type="number"] {
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    tbody input{
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+<h2><center>Faculty Feedback</center></h2>
+<form id="feedbackForm" action="form.html">
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">Sl. No.</th>
+        <th rowspan="2">Parameters</th>
+        <th colspan="13">Subjects</th>
+      </tr>
+      <tr>
+        <th>Oracle (Mr.SunilKumar CS)</th>
+        <th>OOPS with C++ (Mr.Sreedhar.E)</th>
+        <th>nformation System and Organization
+            (Mr.Vinil.OC)
+        </th>
+        <th>Design Thinking
+            (Mr.Jagadish.G.K)</th>
+       
+        <th>Artificial Intelligence
+            (Mr.MuthuKrishna R)</th>
+
+        <th>Unix
+            (Ms.Amrutha K)</th>
+
+        <th>Employability Skills
+            (Mr.Enos)</th>
+
+        <th>OOPS with C++ Lab
+            (Mr.Sreedhar.E)</th>
+        <th>Artificial Intelligence Lab
+            (Mr.MuthuKrishna R)</th>
+        <th>Oracle Lab
+            (Mr.SunilKumar CS)</th>
+        <th>Unix Lab
+            (Ms.Amrutha K)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ability of the faculty to transfer the knowledge & skill</td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+       
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Presentation by the faculty</td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+       
+      </tr>
+	  <tr>
+        <td>3</td>
+        <td>Mannerism of the faculty</td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+     
+      </tr>
+	  <tr>
+        <td>4</td>
+        <td>Ability to clarify the doubts</td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+       
+      </tr>
+	  <tr>
+        <td>5</td>
+        <td>Treats all the students without partiality & with respect</td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+      
+      </tr>
+	  <tr>
+        <td>6</td>
+        <td>Ability to enhance students learning</td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+       
+      </tr>
+	  <tr>
+        <td>7</td>
+        <td>Knows a variety of effective teaching & assessment practices</td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+      
+      </tr>
+	  <tr>
+        <td>8</td>
+        <td>Punctualityof the faculty</td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        
+      </tr>
+	  <tr>
+        <td>9</td>
+        <td>Maintain the discipline in the class room</td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+      
+      </tr>
+	  <tr>
+        <td>10</td>
+        <td>Encourages in extracurricular activities</td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+        <td><input type="number" min="1" max="10" required></td>
+       
+      </tr>
+      <!-- Repeat for other parameters -->
+    </tbody>
+  </table><br><br>
+  <table class="table table-bordered rating-scale">
+            <thead>
+                <tr>
+                    <th>Always</th>
+                    <th>Very Often</th>
+                    <th>Often</th>
+                    <th>Sometimes</th>
+                    <th>Never</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10 , 9</td>
+                    <td>8 , 7</td>
+                    <td>6 , 5</td>
+                    <td>4 , 3</td>
+                    <td>2 , 1</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="text-center">
+            <input type="submit" class="btn btn-primary" value="Submit Feedback">
+            <input type="reset" class="btn btn-primary" value="Reset Feedback">
+        </div>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
